@@ -1,10 +1,10 @@
 import { longestCommonPrefix } from './longest-common-prefix'
 
-describe('roman to integer', () => {
+describe('longest common prefix', () => {
   it.each([
     [["flower", "flow", "flight"], "fl"],
     [["dog", "racecar", "car"], ""],
-  ])('should convert romanian number to integer number', (data, expected) => {
+  ])('should find longest common prefix', (data, expected) => {
     const result = longestCommonPrefix(data)
 
     expect(result).toEqual(expected)
