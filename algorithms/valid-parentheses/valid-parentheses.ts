@@ -19,10 +19,10 @@ export function isValid(s: string): boolean {
   return !parenthesesStack.length
 }
 
-console.log(isValid("()")) // true
-console.log(isValid("()[]{}")) // true
-console.log(isValid("(]")) // false
-console.log(isValid("([)]")) // false
-console.log(isValid("(")) // false
-console.log(isValid("[])")) // false
-console.log(isValid("))")) // false
+// console.log(isValid("()")) // true
+// console.log(isValid("()[]{}")) // true
+// console.log(isValid("(]")) // false
+// console.log(isValid("([)]")) // false
+// console.log(isValid("(")) // false
+// console.log(isValid("[])")) // false
+// console.log(isValid("))")) // false

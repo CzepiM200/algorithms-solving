@@ -23,6 +23,6 @@ export function twoSum(nums: number[], target: number): number[] {
   return result
 }
 
-console.log(twoSum([1, 2, 3, 4, 5, 6, 7, 11, 15], 9))
-console.log(twoSum([3, 2, 4], 6))
-console.log(twoSum([-3, 4, 3, 90], 0))
+// console.log(twoSum([1, 2, 3, 4, 5, 6, 7, 11, 15], 9))
+// console.log(twoSum([3, 2, 4], 6))
+// console.log(twoSum([-3, 4, 3, 90], 0))
