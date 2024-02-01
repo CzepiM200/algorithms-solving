@@ -12,7 +12,7 @@ export function romanToInt(s: string): number {
 
   const romanCharacters = s.split('')
   romanCharacters.push('-')
-  const sums = []
+
   let sum = 0
   for (let i = 0 ; i < romanCharacters.length - 1 ; i++) {
     if (romanToDec[(romanCharacters[i])] >= romanToDec[(romanCharacters[i + 1])]) {
