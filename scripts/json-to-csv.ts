@@ -16,8 +16,8 @@ type Entry = {
     } | null
 }
 
-const inputPath = './scripts/api-data/podkarpacie.json'
-const outputPath = './scripts/csv-data/podkarpacie.csv'
+const inputPath = './scripts/api-data/dolnoslaskie.json'
+const outputPath = './scripts/csv-data/dolnoslaskie.csv'
 
 function csvEscape(value: string | null | undefined): string {
     if (value === null || value === undefined) return ''
